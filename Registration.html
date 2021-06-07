@@ -1,0 +1,78 @@
+<!--A sample registration form-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet"href="registration.css">
+</head>
+<body>
+   <form action="login.html">
+       <div class="div1"align="center">
+           <!--form starting-->
+           <!--<form class="form"action="#" method="POST">-->
+           <h1>Registration Form</h1>
+           <!--Name-->
+           <div class="inputfileds">
+                
+                   <b>Name:<b>
+                   <input type="text"value=""Placeholder="Enter your name" required><br>
+               
+           </div><br>
+           <!--Gender-->
+           <div class="btn">
+                  <label>Gender:</label>
+                  <td><input type="radio" name="gender"value="male"required>Male
+                  <input type="radio"name="gender"value="female"required>Female
+                  <input type="radio"name="gender"value="transgender" required>Transgender
+                 
+            </div><br>
+            <div class="inputfileds">
+                <label>Age:</label>
+                <input type="number"name="age" value=""required><br>
+            </div><br>
+            <!--Qualifications-->
+            <div class="inputfileds">
+                <b>Qualifications:<b>
+                <select required>
+                    <option>-------select-------</option>
+                   <option value="Xth">Xth</option>
+                   <option value="Plustwo">Plustwo</option>
+                   <opton value="Degree">Degree</opton>
+                   <option value="Others">Others</option>
+                </select>
+            </div><br>
+            <!--Contact-->
+            <div class="inputfileds">
+                <label>Contact:</label>
+                <input type="text"value="" required><br>
+            </div><br>
+            <!--Email-->
+            <div class="inputfileds">
+                <label>Email id:</label>
+                <input type="email"value="" placeholder="Enter your email"required><br>
+           </div><br>
+           <!--Address-->
+           <div>
+               <label>Address:</label>
+               <textarea name="text"placeholder="Enter your address"required></textarea><br>
+            </div><br>
+            <!--Username-->
+            <div class="inputfileds">
+                <label>Username:</label>
+                <input type="text"value=""required><br>
+            </div><br>
+            <!--Password-->
+            <div class="inputfileds">
+                <label>Password:</label>
+               <input type="password"value=""required><br>
+            </div><br>
+            <div class="su">  
+            <input type="submit">
+            </div>
+        </div>
+   </form> 
+</body>
+</html>
